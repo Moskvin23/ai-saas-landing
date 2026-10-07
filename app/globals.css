@@ -121,7 +121,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 .price b { font-size: 48px; font-weight: 700; letter-spacing: -0.02em; }
 .price span, .plan p { font-size: 15px; color: var(--muted); }
 .plan ul { list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 15px; color: #3f3f46; }
-.plan li::before { content: 'вњ“'; color: var(--accent); font-weight: 700; margin-right: 10px; }
+.plan li::before { content: '\2713'; color: var(--accent); font-weight: 700; margin-right: 10px; }
 
 /* FAQ */
 .faq { max-width: 880px; margin: 32px auto 0; display: flex; flex-direction: column; gap: 12px; text-align: left; }
